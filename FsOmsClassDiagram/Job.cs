@@ -12,6 +12,7 @@ namespace FsOmsClassDiagram {
     public User SalesRep { get; set; }
     public IEnumerable<JobItem> Items { get; set; }
     public CustomPrintBreif CustomPrintBreif { get; set; }
+    public ICollection<Proof> Proos { get; set; }
     public ICollection<Message> Messages { get; set; }
   }
 } 

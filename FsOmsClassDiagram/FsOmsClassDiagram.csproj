@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="Approval.cs" />
     <Compile Include="CheckList.cs" />
     <Compile Include="CheckListQuestion.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Credentials.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerGraphicUpload.cs" />
+    <Compile Include="CustomerLocation.cs" />
     <Compile Include="CustomPrintBreif.cs" />
     <Compile Include="FinishingOption.cs" />
     <Compile Include="ItemState.cs" />
