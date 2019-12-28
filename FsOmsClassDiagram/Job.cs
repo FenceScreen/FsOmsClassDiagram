@@ -11,8 +11,13 @@ namespace FsOmsClassDiagram {
     public User Designer { get; set; }
     public User SalesRep { get; set; }
     public IEnumerable<JobItem> Items { get; set; }
-    public CustomPrintBreif CustomPrintBreif { get; set; }
-    public ICollection<Proof> Proos { get; set; }
+    public CustomPrintBrief CustomPrintBrief { get; set; }
+    public ICollection<Proof> Proofs { get; set; }
+    // Where do we show these?
     public ICollection<Message> Messages { get; set; }
+
+    //Approved warehouse and item type mapping - Date
+    //Approved Until Date
+    //Approved by User
   }
 } 
