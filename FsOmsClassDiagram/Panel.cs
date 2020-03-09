@@ -7,7 +7,9 @@ namespace FsOmsClassDiagram {
     public int WidthInches { get; set; }
     public int HeightFeet { get; set; }
     public int HeightInches { get; set; }
-    public string Dimensions => $"{WidthFeet}'-{WidthInches}\" x {HeightFeet}'-{HeightInches}\"";
+    public string Height => "{HeightFeet}'-{HeightInches}\"";
+    public string Width => "{WidthFeet}'-{WidthInches}\"";
+    public string Dimensions => $"{Width} x {Height}";
     public int GrommetSpacing { get; set; }
     public string FilePath { get; set; }
     public string Description { get; set; }
